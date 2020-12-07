@@ -83,6 +83,8 @@ multiplatformResources {
     multiplatformResourcesPackage = "com.jetbrains.handson" // required
     iosBaseLocalizationRegion = "en" // optional, default "en"
     multiplatformResourcesSourceSet = "commonMain"  // optional, default "commonMain"
+
+    disableStaticFrameworkWarning = true
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
