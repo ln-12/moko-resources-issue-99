@@ -5,8 +5,8 @@ plugins {
     kotlin("plugin.serialization")
     id("com.android.library")
     id("com.squareup.sqldelight")
-    id("dev.icerock.mobile.multiplatform-resources")
     id("co.touchlab.native.cocoapods")
+    id("dev.icerock.mobile.multiplatform-resources")
 
 }
 
