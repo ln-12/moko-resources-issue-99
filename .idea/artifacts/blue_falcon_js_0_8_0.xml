@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="blue-falcon-js-0.8.0">
+    <output-path>D:\Projekte\SteigtUm\shared-app\shared\blue-falcon-lib\build\libs</output-path>
+    <root id="archive" name="blue-falcon-js-0.8.0.jar">
+      <element id="module-output" name="dev.bluefalcon.KMMApp.blue-falcon.jsMain" />
+    </root>
+  </artifact>
+</component>

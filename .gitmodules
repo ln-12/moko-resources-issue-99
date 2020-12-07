@@ -1,0 +1,9 @@
+[submodule "androidApp/rovermaprendererAndroidv2"]
+	path = androidApp/rovermaprendererAndroidv2
+	url = git@git.informatik.tu-freiberg.de:steigtum/rovermaprendererandroidv2.git
+[submodule "androidApp/src/main/assets/stylesheets"]
+	path = androidApp/src/main/assets/stylesheets
+	url = git@git.informatik.tu-freiberg.de:steigtum/app/rovermap-stylesheets.git
+[submodule "iosApp/res/rovermap_bundles"]
+	path = iosApp/res/rovermap_bundles
+	url = git@ricwein.com:irescue-web/rovermaps/saxonyjson.git

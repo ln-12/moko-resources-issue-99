@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="dev.bluefalcon.KMMApp.blue-falcon.androidMain" target="1.8" />
+      <module name="dev.bluefalcon.KMMApp.blue-falcon.androidTest" target="1.8" />
+      <module name="dev.bluefalcon.KMMApp.blue-falcon.commonMain" target="1.8" />
+      <module name="dev.bluefalcon.KMMApp.blue-falcon.commonTest" target="1.8" />
+      <module name="KMMApp.blue-falcon.androidMain" target="1.8" />
+      <module name="KMMApp.blue-falcon.androidTest" target="1.8" />
+      <module name="KMMApp.blue-falcon.commonMain" target="1.8" />
+      <module name="KMMApp.blue-falcon.commonTest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
