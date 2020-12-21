@@ -165,6 +165,7 @@
 				F1465EFA23AA94BF0055F7C3 /* Frameworks */,
 				F1465EFB23AA94BF0055F7C3 /* Resources */,
 				8FCE24D32061DAC53C330081 /* [CP] Embed Pods Frameworks */,
+				5B1466EE2590A10C00183978 /* moko resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +282,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5B1466EE2590A10C00183978 /* moko resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "moko resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../\" :shared:copyFrameworkResourcesToApp \\\n    -Pmoko.resources.PLATFORM_NAME=$PLATFORM_NAME \\\n    -Pmoko.resources.CONFIGURATION=$CONFIGURATION \\\n    -Pmoko.resources.BUILT_PRODUCTS_DIR=$BUILT_PRODUCTS_DIR \\\n    -Pmoko.resources.CONTENTS_FOLDER_PATH=$CONTENTS_FOLDER_PATH\n";
+		};
 		8FCE24D32061DAC53C330081 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
