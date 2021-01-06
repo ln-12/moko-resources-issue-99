@@ -282,7 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45B551452593024400F0EF73 /* moko-resources copy bundles */ = {
+		  45B551452593024400F0EF73 /* moko-resources copy bundles */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
