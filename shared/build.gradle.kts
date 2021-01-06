@@ -51,7 +51,7 @@ kotlin {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
 
                 // Multiplatform resources
-                api("dev.icerock.moko:resources:0.13.1")
+                api("dev.icerock.moko:resources:0.13.2")
             }
         }
         val commonTest by getting {
@@ -98,7 +98,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 
     this.binaries.configureEach {
         if (this is org.jetbrains.kotlin.gradle.plugin.mpp.Framework) {
-            this.export(project(":resources"))
+            this.export("dev.icerock.moko:resources-$arch:0.13.2")
         }
     }
 }
